@@ -17,13 +17,12 @@ class Employee {
     }
 }
 
-public class PartA{
+public class EmployeeSortDemo {
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
             new Employee("John", 30, 50000),
             new Employee("Alice", 25, 60000),
-            new Employee("Bob", 28, 75000),
-            new Employee("Rishi", 21, 55000) // Added Rishi
+            new Employee("Bob", 28, 75000)
         );
 
         employees.sort((e1, e2) -> Double.compare(e1.salary, e2.salary));
