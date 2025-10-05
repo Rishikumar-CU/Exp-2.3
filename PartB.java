@@ -13,7 +13,7 @@ class Student {
     }
 }
 
-public class StudentStreamDemo {
+public class PartB{
     public static void main(String[] args) {
         List<Student> students = Arrays.asList(
             new Student("Ravi", 1, 82),
