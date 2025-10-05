@@ -17,7 +17,7 @@ class Employee {
     }
 }
 
-public class EmployeeSortDemo {
+public class PartA{
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
             new Employee("John", 30, 50000),
